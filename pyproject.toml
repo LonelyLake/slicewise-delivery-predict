@@ -1,0 +1,18 @@
+[project]
+name = "slicewise-delivery-predict"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "catboost>=1.2.8",
+    "dvc>=3.66.1",
+    "jupyterlab>=4.5.1",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+    "ruff>=0.14.11",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+]
